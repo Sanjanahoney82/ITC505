@@ -11,45 +11,66 @@
         <p>Published in: Future of Software Engineering (FOSE '07)</p>
     </header>
     
-    <section>
-        <h2>Abstract</h2>
-        <p>Web applications, accessible via browsers over the Internet, have evolved significantly since the early days of the Web. From static pages to sophisticated platforms, Web applications now leverage new technologies and methodologies for dynamic development. Future developments will be driven by advances in browser technology, infrastructure, protocols, and software engineering.</p>
-    </section>
+    <article>
+        <section>
+            <h2>Abstract</h2>
+            <p>Web applications, accessible via browsers over the Internet, have evolved significantly since the early days of the Web. From static pages to sophisticated platforms, Web applications now leverage new technologies and methodologies for dynamic development. Future developments will be driven by advances in browser technology, infrastructure, protocols, and software engineering.</p>
+        </section>
+        
+        <section>
+            <h2>Introduction</h2>
+            <p>The World Wide Web began in the early 1990s with a focus on client-server computing and fundamental concepts like URLs, HTML, and HTTP. These principles remain foundational despite the Web's evolution into a dynamic platform for application development.</p>
+        </section>
+        
+        <section>
+            <h2>Foundations of the Web</h2>
+            <p>The Web is based on client-server computing, with key concepts including URLs for document identification, HTML for document creation, and HTTP for communication. These principles have been instrumental in the Web's development.</p>
+        </section>
+        
+        <section>
+            <h2>URL</h2>
+            <p>Uniform Resource Locators (URLs) uniquely identify objects on the Internet by specifying a computer, document, and protocol, as defined in IETF RFC 1630.</p>
+        </section>
+        
+        <section>
+            <h2>HTML</h2>
+            <p>HTML, or HyperText Markup Language, is used to create documents with content, formatting instructions, and links. It has evolved alongside browsers, with XHTML and XML standardizing document definitions.</p>
+        </section>
+        
+        <section>
+            <h2>HTTP</h2>
+            <p>HTTP, a simple request-reply protocol, includes methods like GET and POST for data retrieval and submission. It has enabled the development of dynamic web applications by integrating various programming languages.</p>
+        </section>
+        
+        <section>
+            <h2>Future Web Developments</h2>
+            <p>The future of the Web involves semantic processing to better understand and process vast amounts of data. The Semantic Web aims to standardize data semantics, enabling advanced applications such as semantic search and Wikis.</p>
+        </section>
+        
+        <section>
+            <h2>Conclusion</h2>
+            <p>Web applications are rapidly evolving, emphasizing agility, standard components, and user participation. Challenges include managing unstructured data and enhancing data interoperability to support diverse users and collaborative environments.</p>
+        </section>
+    </article>
     
-    <section>
-        <h2>Introduction</h2>
-        <p>The World Wide Web began in the early 1990s with a focus on client-server computing and fundamental concepts like URLs, HTML, and HTTP. These principles remain foundational despite the Web's evolution into a dynamic platform for application development.</p>
-    </section>
-    
-    <section>
-        <h2>Foundations of the Web</h2>
-        <p>The Web is based on client-server computing, with key concepts including URLs for document identification, HTML for document creation, and HTTP for communication. These principles have been instrumental in the Web's development.</p>
-    </section>
-    
-    <section>
-        <h2>URL</h2>
-        <p>Uniform Resource Locators (URLs) uniquely identify objects on the Internet by specifying a computer, document, and protocol, as defined in IETF RFC 1630.</p>
-    </section>
-    
-    <section>
-        <h2>HTML</h2>
-        <p>HTML, or HyperText Markup Language, is used to create documents with content, formatting instructions, and links. It has evolved alongside browsers, with XHTML and XML standardizing document definitions.</p>
-    </section>
-    
-    <section>
-        <h2>HTTP</h2>
-        <p>HTTP, a simple request-reply protocol, includes methods like GET and POST for data retrieval and submission. It has enabled the development of dynamic web applications by integrating various programming languages.</p>
-    </section>
-    
-    <section>
-        <h2>Future Web Developments</h2>
-        <p>The future of the Web involves semantic processing to better understand and process vast amounts of data. The Semantic Web aims to standardize data semantics, enabling advanced applications such as semantic search and Wikis.</p>
-    </section>
-    
-    <section>
-        <h2>Conclusion</h2>
-        <p>Web applications are rapidly evolving, emphasizing agility, standard components, and user participation. Challenges include managing unstructured data and enhancing data interoperability to support diverse users and collaborative environments.</p>
-    </section>
-    
+    <article>
+        <h1>Addendum</h1>
+        <p>This section explains the HTML choices made for structuring the paper:</p>
+        <ul>
+            <li><strong>Header:</strong> Used for the main title and publication information.</li>
+            <li><strong>Article:</strong> Encompasses the entire paper content and the addendum.</li>
+            <li><strong>Section:</strong> Divides the paper into logical parts for easier reading and structure.</li>
+            <li><strong>Footer:</strong> Includes a last modified date for the document.</li>
+        </ul>
+    </article>
+
+    <footer>
+        <p>Last updated: <span id="lastModified"></span></p>
+    </footer>
+    <script type="text/javascript">
+         var x = document.lastModified;
+         document.getElementById('lastModified').textContent = x;
+    </script>
 </body>
 </html>
+
